@@ -1,0 +1,57 @@
+body {
+    background-image: url('https://terrigen-cdn-dev.marvel.com/content/prod/1x/a33.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe UI;
+}
+
+.container {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 10%;
+}
+
+.padd {
+    padding: 20px;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(29, 240, 110);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.opened {
+    display: none;
+}
+
+.card {
+    height: 300px;
+    width: 18%;
+    background-color: red;
+    margin-top: 20px;
+    background-size: cover;
+}
+
+.overlay {
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+}
